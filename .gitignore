@@ -1,0 +1,45 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter repo-specific
+/bin/cache/
+/packages/flutter_tools/test/data/create_flutter__bundle_test/empty_package/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android Studio will place build artifacts in the directory
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# SQLite databases - Requisito da atividade: Nao incluir bancos com coordenadas pessoais
+*.db
+*.db-journal
+*.sqlite
