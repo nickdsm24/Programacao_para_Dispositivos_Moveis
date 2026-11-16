@@ -43,3 +43,5 @@ migrate_working_dir/
 *.db
 *.db-journal
 *.sqlite
+
+GUIA_ESTUDO_PROVA
